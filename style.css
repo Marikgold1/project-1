@@ -137,10 +137,12 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+background-color: rgb(218, 175, 198);
 }
 
 .card-1 {
     background-image: url(img/card-1.png);
+    border-radius: 20px;
     background-size: cover;
     padding: 50px;
     margin: 30px;
@@ -149,9 +151,118 @@ align-items: center;
 
 .card-2 {
     background-image: url(img/card-2.png);
+    border-radius: 20px;
     background-size: cover;
     padding: 50px;
     margin: 30px;
     border: 80px;
+    height: 100%;
 }
 
+.card-1 a {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.973);
+    background-color: rgb(153, 179, 228);
+    border-radius: 40px;
+    color: rgb(161, 51, 0);
+    font-weight: bold;
+}
+
+.card-1 h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.card-2 a {
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.973);
+    background-color: rgb(153, 179, 228);
+    border-radius: 40px;
+    color: rgb(24, 141, 141);
+    font-weight: bold;
+}
+
+.card-2 h3 {
+    padding-bottom: 49px;
+    padding-top: 20px;
+}
+
+section {
+    background-color: rgb(230, 185, 209);
+}
+
+.pet-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    margin-right: 100px;
+}
+.picture-settings {
+    flex: 1;
+    margin: 70px 0px 70px 200px;
+}
+
+section ul {
+    padding: 30px;
+}
+
+.list p {
+    padding-top: 20px;
+}
+
+.list h2 {
+    font-weight: bold;
+}
+
+.pay {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+
+footer {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding: 50px 0 30px 0;
+    background-color: rgb(212, 172, 248);
+}
+
+.phone {
+    font-weight: bold;
+}
+.phone a {
+    color: rgb(204, 57, 57);
+    text-decoration: none;
+}
+
+.bottom-buttons input {
+    border-radius: 15px;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: rgb(141, 215, 228);
+    color: black;
+    font-weight: bold;
+    transition: color 0.6s;
+}
+
+.bottom-buttons button {
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin-top: 25px;
+    text-decoration: none;
+    background-color: rgb(191, 231, 97);
+    color: black;
+    font-weight: bold;
+    transition: color 0.6s;
+}
